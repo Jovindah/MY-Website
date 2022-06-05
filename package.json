@@ -1,4 +1,6 @@
 {
+"homepage": "https://Jovindah.github.io/MY-Website",
+
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -32,7 +34,11 @@
     "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
+  "engines": { "node": "v16.14.2",
+    "npm": "8.5.0"},
   "scripts": {
+    "predeploy" :"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -56,4 +62,5 @@
       "last 1 safari version"
     ]
   }
+
 }
