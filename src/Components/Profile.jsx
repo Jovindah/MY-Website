@@ -67,7 +67,7 @@ function Profile() {
           <div className="profile-options" id="resume">
             
             <a
-              href="/umer.pdf"
+              href="umer.pdf"
               download="Resume Umer.pdf"
             >
             
